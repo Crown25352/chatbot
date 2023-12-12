@@ -8,6 +8,9 @@ import { PluginKey } from '@/types/plugin';
 
 import { ChatbarInitialState } from './Chatbar.state';
 
+/*
+  @desc: make chatbar context
+*/
 export interface ChatbarContextProps {
   state: ChatbarInitialState;
   dispatch: Dispatch<ActionType<ChatbarInitialState>>;
